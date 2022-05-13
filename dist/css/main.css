@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  overflow: hidden;
+  position: fixed;
+  background: #e6e6e6;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .Login__container {
+  background: white;
+  max-width: 700px;
+  padding: 2rem;
+  border-radius: 17px;
+}
+
+main .Login__container-structure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .Login__container-structure__input-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+main .Login__container-structure__input-div .input {
+  width: 400px;
+  padding: 1rem 1rem;
+  margin: 0.7rem 0;
+  border-radius: 50px;
+  border: 1.5px solid #f2f2f2;
+  outline: none;
+}
+
+main .Login__container-structure__input-div .input.error {
+  border: 2.5px solid red;
+}
+
+main .Login__container-structure__input-div .input.error::-webkit-input-placeholder {
+  color: red;
+}
+
+main .Login__container-structure__input-div .input.warning {
+  border: 2.5px solid orange;
+}
+
+main .Login__container-structure__input-div .input.warning::-webkit-input-placeholder {
+  color: orange;
+}
+
+main .Login__container-structure__btn-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .Login__container-structure__btn-div .btn {
+  padding: 0.7rem 1.5rem;
+  border: none;
+  outline: none;
+  border-radius: 19px;
+  background: green;
+  color: white;
+  cursor: pointer;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .sign-up__container {
+  background: white;
+  max-width: 700px;
+  padding: 2rem;
+  border-radius: 17px;
+}
+
+main .sign-up__container-structure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .sign-up__container-structure__confirm-message .confirm {
+  display: none;
+  text-transform: capitalize;
+  padding-left: 1rem;
+  font-size: 1rem;
+  font-weight: 900;
+  color: lightgreen;
+  opacity: 1;
+  z-index: 100;
+}
+
+main .sign-up__container-structure__confirm-message .confirm.saved {
+  display: block;
+}
+
+main .sign-up__container-structure__confirm-message .confirm a {
+  color: inherit;
+}
+
+main .sign-up__container-structure__input-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+main .sign-up__container-structure__input-div .input {
+  width: 400px;
+  padding: 1rem 1rem;
+  margin: 0.7rem 0;
+  border-radius: 50px;
+  border: 1.5px solid #f2f2f2;
+  outline: none;
+}
+
+main .sign-up__container-structure__input-div .input.error {
+  border: 2.5px solid red;
+}
+
+main .sign-up__container-structure__input-div .input.error::-webkit-input-placeholder {
+  color: red;
+}
+
+main .sign-up__container-structure__input-div .input.warning {
+  border: 2.5px solid orange;
+}
+
+main .sign-up__container-structure__input-div .input.warning::-webkit-input-placeholder {
+  color: orange;
+}
+
+main .sign-up__container-structure__btn-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .sign-up__container-structure__btn-div .btn {
+  padding: 0.7rem 1.5rem;
+  border: none;
+  outline: none;
+  border-radius: 19px;
+  background: green;
+  color: white;
+  cursor: pointer;
+}
+
+main .sign-up__container-structure__btn-div .logintext-div a {
+  color: orange;
+}
+/*# sourceMappingURL=main.css.map */
